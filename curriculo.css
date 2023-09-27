@@ -12,6 +12,11 @@
     font-family: 'Cabin Condensed', sans-serif;
 }
 
+body {
+    max-width: 800px;
+    margin: auto;
+}
+
 
 #menu {
     height: 75px;
