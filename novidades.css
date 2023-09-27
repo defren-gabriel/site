@@ -12,3 +12,25 @@
     font-family: 'Cabin Condensed', sans-serif;
 }
 
+
+#menu {
+    height: 75px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    gap: 5px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    background-color: #00337c;
+    padding: 7px 10px;
+    border-radius: 7px;
+}
+
+#menu a:last-child{
+    margin-right: 5px;
+}
