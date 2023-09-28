@@ -18,6 +18,7 @@ body {
 }
 
 
+
 #menu {
     height: 75px;
 
@@ -36,6 +37,58 @@ body {
     border-radius: 7px;
 }
 
-#menu a:last-child{
-    margin-right: 5px;
+
+
+#apresentacao {
+    display: flex;
+}
+
+#apresentacao img {
+    width: 50%;
+    max-width: 50%;
+
+    border-radius: 50%;
+}
+
+#apresentacao div {
+    width: 50%;
+    max-width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+#apresentacao div strong {
+    margin-left: 25px;
+}
+
+
+
+@media screen and (max-width: 800px){
+    #menu a:last-child{
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #apresentacao {
+        flex-direction: column;
+        align-items: center;
+
+        gap: 25px;
+    }
+
+    #apresentacao img{
+        width: 85%;
+        max-width: 85%;
+    }
+
+    #apresentacao div {
+        width: 85%;
+        max-width: 85%;
+
+        align-items: center;
+    }
 }
