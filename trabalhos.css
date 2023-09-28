@@ -39,16 +39,33 @@ body {
 
 
 
+h1 {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+
+
 .area {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 5px;
+
+    margin-bottom: 50px;
 }
 
 .area img {
-    width: 85%;
-    max-width: 85%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+
+    max-width: 75%;
+    margin: auto;
 }
 
 
@@ -56,5 +73,12 @@ body {
 @media screen and (max-width: 800px){
     #menu a:last-child{
         margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .link {    
+        max-width: 95%;
+        margin: auto;
     }
 }
