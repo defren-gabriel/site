@@ -1,0 +1,473 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+
+    -webkit-box-sizing: border-box;
+
+            box-sizing: border-box;
+}
+
+
+
+/* classes */
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.email {
+    border: 2px solid gray;
+    height: 50px;
+    width: 65%;
+}
+
+.button {
+    height: 50px;
+    width: 35%;
+
+    background-color: #2f65f9;
+    color: #ffffff;
+
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+
+
+/* area1 */
+#area1 {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+
+    margin-bottom: 75px;
+
+    padding: 50px;
+}
+
+#subarea1 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+
+    gap: 20px;
+}
+
+#subarea2 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+
+    gap: 75px;
+}
+
+#subarea2 a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* area2 */
+#area2 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 15px;
+
+    padding: 50px;
+}
+
+#subarea3 {
+    width: 50%;
+}
+
+#item6 {
+    font-size: 32px;
+}
+
+#item7 {
+    font-size: 1em;
+
+    margin-top: 25px;
+}
+
+#subarea4 {
+    margin-top: 15px;
+
+    -webkit-box-pack: justify;
+
+        -ms-flex-pack: justify;
+
+            justify-content: space-between;
+    gap: 15px;
+}
+
+#subarea5 {
+    width: 50%;
+}
+
+#subarea5 img {
+    width: 100%;
+}
+
+
+
+/* area3 */
+#area3 {
+    margin-top: 50px;
+    gap: 15px;
+
+    padding: 150px 50px 75px 50px;
+
+
+    background-image: url(images/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#subarea6 {
+    width: 50%;
+}
+
+#item11 {
+    font-size: 32px;
+}
+
+#item12 {
+    font-size: 1em;
+
+    margin-top: 25px;
+}
+
+#item13 {
+    font-size: 1em;
+
+    margin-top: 15px;
+}
+
+
+
+#subarea7 {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 10px;
+
+    margin-top: 15px;
+
+    width: 180px;
+
+    border-bottom: 2px solid green;
+    padding-bottom: 5px;
+}
+
+
+
+#item14 {
+    text-decoration: none;
+    color: green;
+}
+
+
+#subarea8 {
+    width: 50%;
+}
+
+#subarea8 img {
+    width: 100%;
+}
+
+#subarea18 {
+    width: 65%;
+    background-color: #ffffff;
+
+    padding: 25px;
+
+    -webkit-box-shadow: 0 0 10px #aaaaaa;
+
+            box-shadow: 0 0 10px #aaaaaa;
+
+    margin-top: 25px;
+
+    border-radius: 7px;
+}
+
+#item37 {
+    margin-top: 15px;
+}
+
+#item38 {
+    margin-top: 15px;
+}
+
+#subarea19 {
+    margin-top: 15px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    gap: 10px;
+}
+
+#item39 {
+    width: 45px;
+    border-radius: 50%;
+}
+
+
+
+/* area4 */
+#area4 {
+    background-color: #575989;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 125px;
+    padding: 75px;
+    color: #ffffff;
+}
+
+#item17 {
+    font-size: 28px;
+}
+
+#item18 {
+    margin-top: 15px;
+}
+
+#subarea9 {
+    width: 50%;
+}
+
+#subarea10 {
+    width: 50%;
+}
+
+#item19 {
+    display: block;
+    width: 100%;
+}
+
+#item20 {
+    display: block;
+    width: 40%;
+    margin-top: 10px;
+}
+
+
+
+/* area5 */
+#area5 {
+    background-color: #07043b;
+    color: #ffffff;
+    padding: 125px 75px 75px 75px;
+}
+
+#subarea12 {
+    margin-top: 25px;
+    padding-right: 75px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+}
+
+#subarea13 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 20px;
+}
+
+#subarea14, #subarea21 {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    gap: 10px;
+}
+
+#subarea15, #subarea16 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+
+    gap: 20px;
+}
+
+#subarea15 a, #subarea16 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#subarea17 {
+    gap: 15px;
+}
+
+#subarea17 img{
+    width: 25px;
+}
+
+
+
+/* outros */
+#item8, #item19 {
+    padding-left: 12px;
+    color: #cccccc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+p, a, span {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/* mobile */
+@media screen and (max-width: 1100px) {
+    #area2 {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+        padding: 15px;
+    }
+
+    #subarea3, #subarea5 {
+        width: 90%;
+    }
+
+    #subarea4 {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    #subarea6 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+    }
+
+    #subarea7, #subarea18 {
+        -ms-flex-item-align: center;
+            -ms-grid-row-align: center;
+            align-self: center;
+    }
+
+    #item8, #item9 {
+        width: 100%;
+    }
+
+
+    #area3 {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+        padding: 15px;
+    }
+
+    #subarea6, #subarea8 {
+        width: 90%;
+    }
+
+    #subarea7 {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+
+
+    #area4 {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        padding: 15px;
+
+        gap: 25px;
+    }
+
+    #subarea9, #subarea10 {
+        width: 90%;
+    }
+
+    #item19, #item20 {
+        width: 100%;
+    }
+
+
+    #subarea12 {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        gap: 50px;
+        padding-right: 0;
+    }
+
+    #subarea17 {
+        -ms-flex-item-align: center;
+            -ms-grid-row-align: center;
+            align-self: center;
+    }
+}

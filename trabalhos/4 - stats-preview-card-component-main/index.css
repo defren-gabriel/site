@@ -1,0 +1,209 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 4 version
+*/
+
+/*corpo*/
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*componentes unicos*/
+#containerprincipal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+    background-color: #0a0c1b;
+    padding: 25px 0px;
+}
+
+#containergrid {
+    display: -ms-grid;
+    display: grid;
+            grid-template-areas: "area2 area1";
+    gap: 0px;
+
+    width: 900px;
+
+    border-radius: 25px;
+}
+
+#area1 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+    grid-area: area1;
+    width: 450px;
+
+    background-image: url(./images/image-header-desktop.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#area2 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: area2;
+    width: 450px;
+
+    background-color: #1c1938;
+
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+#area2itens {
+    padding: 25px;
+    margin-right: 50px;
+}
+
+#area2itens p {
+    line-height: 2;
+}
+
+#links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+    padding: 25px 0px;
+}
+
+
+/*cor roxa sobre o fundo da região*/
+#transparencia {
+    width: 100%;
+    height: 100%;
+
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+    background-color: rgba(170, 92, 219, 0.5);
+}
+
+
+
+/*classes*/
+
+/*cores*/
+h1, h2 {
+    color: #ffffff;
+}
+
+.cor1 {
+    color:hsla(0, 0%, 100%, 0.75);
+}
+
+.cor2 {
+    color:rgb(170, 92, 219);
+}
+
+
+.fonte {
+    font-family: 'Inter', sans-serif;
+}
+
+
+/*responsividade*/
+@media screen and (max-width: 925px){  
+    #containerprincipal {
+        padding: 25px 0px;
+    }  
+
+    #containergrid {
+                grid-template-areas: "area1"
+                             "area2";
+
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+
+        width: 80%;
+        margin: auto;
+    }
+
+    #area1 {
+        width: 100%;
+        height: 380px;
+
+        background-image: url(./images/image-header-mobile.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 0px;
+    }
+
+    #transparencia {
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 0px;
+
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+
+    #area2 {
+        width: 100%;
+
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    #links {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }  
+
+    #area1 {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }  
+
+    #area2 {
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+    }
+}

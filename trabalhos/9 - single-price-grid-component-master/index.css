@@ -1,0 +1,250 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+body {
+    margin: 0;
+    padding: 100px 0 0 0;
+
+    background-color: #e6eff6;
+
+    font-family: 'Karla', sans-serif;
+    color: #929292;
+}
+
+#containerprincipal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 0;
+
+    -webkit-box-sizing: border-box;
+
+            box-sizing: border-box;
+
+    width: 60%;
+    max-width: 700px;
+    margin: auto;
+
+    border-radius: 10px;
+}
+
+#area1 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+
+    width: 100%;
+
+    background-color: #ffffff;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    padding: 25px;
+}
+
+#area2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    gap: 0;
+
+    -webkit-box-sizing: border-box;
+
+            box-sizing: border-box;
+
+    width: 100%;
+
+    border-radius: 10px;
+}
+
+#area3 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+
+    width: 100%;
+
+    background-color: #2bb3b1;
+
+    border-bottom-left-radius: 10px;
+
+    padding: 25px;
+
+    color: #ffffff;
+}
+
+#area4 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+
+    width: 100%;
+
+    background-color: #4abebd;
+
+    border-bottom-right-radius: 10px;
+
+    padding: 25px;
+
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: #dfdfdf;
+    font-size: 0.95em;
+    font-style: normal;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.titulo {
+    color: #4abebd;
+}
+
+.subtitulo {
+    color: #bfdf32;
+}
+
+#vt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 15px;
+
+    margin-bottom: 25px;
+}
+
+.valor {
+    font-size: 2em;
+}
+
+.texto1 {
+    color: #d3d3d3;
+}
+
+.texto2 {
+    display: block;
+    margin-bottom: 15px;
+}
+
+#dbotao {
+    height: 75px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.botao {
+    background-color: #bfdf32;
+    color: #ffffff;
+    padding: 10px 75px;
+    border-radius: 5px;
+    -webkit-box-shadow: 5px 5px 15px #1d7c7b;
+            box-shadow: 5px 5px 15px #1d7c7b;
+}
+
+
+/*mobilidade*/
+@media screen and (max-width: 900px){
+    body {
+        padding: 25px 0 0 0;
+    }
+
+    #containerprincipal {
+        width: 95%;
+        margin: auto;
+    }
+
+    #area2 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        gap: 0;
+    }
+
+    #area3, #area4 {
+        width: 100%;
+    }
+
+    #area3 {
+        border-bottom-left-radius: 0;
+    }
+
+    #area4 {
+        border-bottom-left-radius: 10px;
+    }
+
+    .botao {
+        width: 80%;
+    }
+}

@@ -1,0 +1,217 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+
+    -webkit-box-sizing: border-box;
+
+            box-sizing: border-box;
+}
+
+/* area das fontes */
+h1, span, p {
+    font-family: 'Fraunces', serif;
+}
+
+/* area do conteudo */
+#areaprincipal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+
+    -webkit-box-pack: center;
+
+        -ms-flex-pack: center;
+
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+    height: 100vh;
+
+    background-color: #f3eae3;
+
+    border-radius: 5px;
+}
+
+#imagemfundo, #info {
+    width: 300px;
+    height: 480px;
+}
+
+#imagemfundo {
+    background-image: url(images/image-product-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#info {
+    padding: 25px;
+
+    background-color: #ffffff;
+
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+}
+
+#perfume {
+    text-transform: uppercase;
+    letter-spacing: 0.6em;
+    color: grey;
+}
+
+#info h1 {
+    font-size: 38px;
+    font-weight: bolder;
+    /* margin-top: 25px; */
+}
+
+#info p {
+    color: grey;
+    /* margin-top: 25px; */
+}
+
+#chanel {
+    text-transform: uppercase;
+}
+
+#areapreco {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+
+    -webkit-box-pack: start;
+
+        -ms-flex-pack: start;
+
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 15px;
+
+    /* margin-top: 25px; */
+}
+
+#preco {
+    font-size: 38px;
+    color: #3d8168;
+}
+
+#desconto {
+    text-decoration: line-through;
+    color: grey;
+}
+
+#botao {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+
+    -webkit-box-pack: center;
+
+        -ms-flex-pack: center;
+
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+
+    background-color: #3d8168;
+    color: #ffffff;
+
+    /* margin-top: 25px; */
+    padding: 20px;
+
+    border-radius: 5px;
+}
+
+#botao img {
+    width: 25px;
+}
+
+#botao span {
+    font-size: 26px;
+}
+
+
+
+/* mobilidade */
+@media screen and (max-width: 800px){
+    #areaprincipal {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    #imagemfundo {
+        background-image: url(images/image-product-mobile.jpg);
+        height: 300px;
+
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    #info {
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    #imagemfundo, #info {
+        width: 400px;
+    }
+}

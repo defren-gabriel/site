@@ -1,0 +1,237 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+body {
+    margin: 0;
+    padding: 100px 0 0 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#containerpai {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px;
+
+    -webkit-box-sizing: border-box;
+
+            box-sizing: border-box;
+
+    background-image: url(./images/bg-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #674bb1;
+}
+
+#logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+    margin-bottom: 50px;
+}
+
+#containerfilhos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    gap: 0;
+
+    -webkit-box-sizing: border-box;
+
+            box-sizing: border-box;
+}
+
+#filho1 {
+    width: 55%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+#filho1 img {
+    width: 100%;
+}
+
+#filho2 {
+    width: 45%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 25px;
+
+    color: #ffffff;
+}
+
+#botaofilho2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+#botaofilho2 a {
+    text-decoration: none;
+    padding: 10px 50px;
+    background-color: #ffffff;
+    color: #674bb1;
+    border-radius: 25px;
+    -webkit-box-shadow: 8px 8px 12px #47347c;
+            box-shadow: 8px 8px 12px #47347c;
+}
+
+#rodape {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 25px;
+}
+
+.iconerodape {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}
+
+
+/*mobilidade*/
+@media screen and (max-width: 1200px){
+    body {
+        padding: 0;
+    }
+
+    #containerpai {
+        width: 100%;
+        background-image: url(./images/bg-mobile.svg);
+        background-size: 100% 60%;
+        background-repeat: no-repeat;
+    }
+
+    #containerfilhos {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: stretch;
+            -ms-flex-align: stretch;
+                align-items: stretch;
+        gap: 0;
+    
+        -webkit-box-sizing: border-box;
+    
+                box-sizing: border-box;
+    }
+    
+    #filho1 {
+        width: 100%;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+    }
+
+    #filho2 {
+        width: 100%;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        padding: 25px;
+    }
+
+    #botaofilho2 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    #botaofilho2 a {
+        margin: 25px 0;
+    }
+
+    #rodape {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        gap: 25px;
+    }
+}

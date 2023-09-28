@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg59"
+   width="268.90381"
+   height="606.19208"
+   viewBox="0 0 268.90381 606.19208"
+   sodipodi:docname="chat app.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs63">
+    <linearGradient
+       id="linearGradient1657"
+       inkscape:swatch="gradient">
+      <stop
+         style="stop-color:#cccccc;stop-opacity:1;"
+         offset="0"
+         id="stop1653" />
+      <stop
+         style="stop-color:#cccccc;stop-opacity:0;"
+         offset="1"
+         id="stop1655" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="namedview61"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.84044905"
+     inkscape:cx="352.19267"
+     inkscape:cy="191.56426"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g65" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g65"
+     transform="translate(-794.81323,208.78549)">
+    <rect
+       style="fill:#f7f5fa;fill-opacity:1;stroke-width:2.69342"
+       id="rect3995"
+       width="268.90387"
+       height="606.19208"
+       x="794.81323"
+       y="-208.78549"
+       ry="134.45193"
+       inkscape:export-filename="images\back-1.svg"
+       inkscape:export-xdpi="126.69252"
+       inkscape:export-ydpi="126.69252" />
+  </g>
+</svg>

@@ -1,0 +1,170 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+body {
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+
+    background-color: #19a1ad;
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-position: -50% -50%, 150% 150%;
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: fixed, fixed;
+
+    height: 100vh;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+
+/*itens unicos*/
+#containerprincipal {
+    width: 400px;
+    margin: auto;
+
+    border-radius: 25px;
+}
+
+#containerdados {
+    background-image: url(./images/bg-pattern-card.svg);
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+
+    background-color: #ffffff;
+
+    height: 320px;
+
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+
+    border-bottom: 1px solid rgb(226, 226, 226);
+
+    position: relative;
+}
+
+#containerdados img {
+    position: absolute;
+    top: calc(50% - 48px);
+    left: calc(50% - 48px);
+
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+}
+
+#containerdados h1 {
+    position: absolute;
+    bottom: 35px;
+    left: 0px;
+
+    width: 100%;
+    text-align: center;
+}
+
+#idade {
+    margin-left: 10px;
+}
+
+#local {
+    position: absolute;
+    bottom: 25px;
+    left: 0px;
+
+    width: 100%;
+    text-align: center;
+}
+
+
+#containerinfo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+    padding: 25px;
+
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+    background-color: #ffffff;
+}
+
+#containerinfo1 {
+    text-align: center;
+}
+
+#containerinfo1 h1{
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+#containerinfo2 {
+    text-align: center;
+}
+
+#containerinfo2 h1{
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+#containerinfo3 {
+    text-align: center;
+}
+
+#containerinfo3 h1{
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+
+/*classes*/
+.cor-texto1 {
+    color: #b3b3b3;
+}
+
+.espaçamento {
+    letter-spacing: 0.10em;
+}
+
+.fonte {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+
+/*responsividade*/
+@media screen and (max-width: 415px){
+    #containerprincipal {
+        width: 90%;
+    }
+}

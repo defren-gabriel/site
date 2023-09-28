@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg59"
+   width="23.796799"
+   height="23.796753"
+   viewBox="0 0 23.796799 23.796753"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs63">
+    <linearGradient
+       id="linearGradient1657">
+      <stop
+         style="stop-color:#cccccc;stop-opacity:1;"
+         offset="0"
+         id="stop1653" />
+      <stop
+         style="stop-color:#cccccc;stop-opacity:0;"
+         offset="1"
+         id="stop1655" />
+    </linearGradient>
+  </defs>
+  <g
+     id="g65"
+     transform="translate(-73.832008,-577.83124)">
+    <circle
+       style="fill:#38244e;fill-opacity:1;stroke:none;stroke-width:2.286"
+       id="circle1443"
+       cx="-85.730408"
+       cy="589.72961"
+       r="11.898401"
+       transform="scale(-1,1)" />
+    <g
+       id="g1449"
+       transform="matrix(-0.60284551,0,0,0.60284551,-114.64061,554.43534)">
+      <path
+         style="fill:#000000;fill-opacity:0;stroke:#ffffff;stroke-width:3.123;stroke-dasharray:none"
+         d="m -327.98948,48.037969 -8.77185,11.249941"
+         id="path1445" />
+      <path
+         style="fill:#000000;fill-opacity:0;stroke:#ffffff;stroke-width:3.123;stroke-dasharray:none"
+         d="m -327.98948,69.054293 -8.77185,-11.24994"
+         id="path1447" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,150 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 4 version
+*/
+
+body {
+    margin: 0px;
+    padding-top: 25px;
+}
+
+
+/*configuracoes unicas*/
+/*container grid*/
+#containergrid {
+    display: -ms-grid;
+    display: grid;
+            grid-template-areas: "area1 area2 area3";
+    gap: 0px;
+
+    margin: auto;
+
+    max-width: 900px;
+}
+
+/*containers internos*/
+#container1 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: area1;
+}
+
+#container2 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+    grid-area: area2;
+}
+
+#container3 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 5;
+    grid-area: area3;
+}
+
+/*outros itens unicos*/
+h1 {
+    text-transform: uppercase;
+}
+
+p {
+    margin-bottom: 75px;
+    letter-spacing: 0.10em;
+}
+
+a {
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding: 15px;
+    border-radius: 25px;
+
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.10em;
+}
+
+a:hover {
+    background-color: transparent;
+    color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+}
+
+
+/*classes*/
+.caixa {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 300px;
+}
+
+.espaco-interno-container {
+    padding: 25px 45px 25px 25px;
+}
+
+.cor-fundo1 {
+    background-color: #e28525;
+}
+
+.cor-fundo2 {
+    background-color: #016972;
+}
+
+.cor-fundo3 {
+    background-color: #00403f;
+}
+
+.cor-texto-padrao {
+    color: #f2f2f2;
+}
+
+.cor-texto1 {
+    color: #e28525;
+}
+
+.cor-texto2 {
+    color: #016972;
+}
+
+.cor-texto3 {
+    color: #00403f;
+}
+
+.fonte {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+/*configuração do layout movel*/
+@media screen and (max-width: 915px){
+    #containergrid {
+        width: 90%;
+                grid-template-areas: "area1"
+                             "area2"
+                             "area3";
+        max-width: 400px;
+    }
+
+    .caixa {
+        width: 100%;
+    }
+    #container1 {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    #container2 {
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+    }
+    #container3 {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+    }
+}
