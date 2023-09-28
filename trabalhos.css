@@ -18,6 +18,7 @@ body {
 }
 
 
+
 #menu {
     height: 75px;
 
@@ -36,6 +37,10 @@ body {
     border-radius: 7px;
 }
 
-#menu a:last-child{
-    margin-right: 5px;
+
+
+@media screen and (max-width: 800px){
+    #menu a:last-child{
+        margin-right: 5px;
+    }
 }
