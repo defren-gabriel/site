@@ -17,6 +17,16 @@ body {
     margin: auto;
 }
 
+body.tema-claro {
+    background-color: white;
+    color: black;
+}
+
+body.tema-escuro {
+    background-color: black;
+    color: white;
+}
+
 
 
 #menu {
