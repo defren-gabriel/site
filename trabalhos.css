@@ -17,16 +17,6 @@ body {
     margin: auto;
 }
 
-body.tema-claro {
-    background-color: white;
-    color: black;
-}
-
-body.tema-escuro {
-    background-color: black;
-    color: white;
-}
-
 
 
 #menu {
@@ -75,18 +65,6 @@ h1 {
     color: white;
 
     border: 1px solid white;
-    border-radius: 5px;
-    padding: 7px 10px;
-
-    max-width: 75%;
-    margin: auto;
-}
-
-.link-escuro {
-    text-decoration: none;
-    color: black;
-
-    border: 1px solid black;
     border-radius: 5px;
     padding: 7px 10px;
 
