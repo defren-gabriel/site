@@ -47,9 +47,74 @@ body.tema-escuro {
 }
 
 
+.progresso {
+    display: flex;
+    gap: 10px;
+
+    max-width: 600px;
+    margin: 0 auto 5px auto;
+}
+
+.progresso-imgs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.bola {
+    background-color: #00337c;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.barra {
+    width: 5px;
+    background-color: #00337c;
+
+    flex-grow: 1;
+}
+
+.progresso-info {    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    flex-grow: 1;
+}
+
+.progresso-info h1 {
+    margin: 0;
+}
+
+.progresso-info span {
+    text-align: justify;
+}
+
+.progresso-info div {
+    height: 35px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.progresso-info div time {
+    font-size: 0.85em;
+    text-align: right;
+}
+
+
 
 @media screen and (max-width: 800px){
     #menu a:last-child{
         margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .progresso {
+        padding: 0 5px;
     }
 }
