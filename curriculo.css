@@ -38,8 +38,24 @@ body {
 
 
 
+ul {
+    margin-left: 45px;
+}
+
+li {
+    text-align: justify;
+}
+
+
+
 @media screen and (max-width: 800px){
     #menu a:last-child{
         margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    ul {
+        margin-left: 32px;
     }
 }
