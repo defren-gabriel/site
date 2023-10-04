@@ -41,6 +41,8 @@ body {
 
 #apresentacao {
     display: flex;
+
+    margin-bottom: 50px;
 }
 
 #apresentacao img {
@@ -66,9 +68,93 @@ body {
 
 
 
+h1 {
+    margin: 25px auto;
+}
+
+
+
+.progresso {
+    display: flex;
+    gap: 10px;
+
+    max-width: 800px;
+    margin: 0 auto 5px auto;
+}
+
+.progresso-imgs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.bola {
+    background-color: #00337c;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.barra {
+    width: 5px;
+    background-color: #00337c;
+
+    flex-grow: 1;
+}
+
+.progresso-info {    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    flex-grow: 1;
+}
+
+.progresso-info img {
+    max-width: 400px;
+    margin: auto;
+}
+
+.progresso-info h2 {
+    margin: 15px 0;
+}
+
+.progresso-info span, p {
+    text-align: justify;
+}
+
+.progresso-info a {
+    text-decoration: none;
+    color: black;
+
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 7px 10px;
+}
+
+.progresso-info div {
+    height: 35px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.progresso-info div time {
+    font-size: 0.85em;
+    text-align: right;
+}
+
+
+
 @media screen and (max-width: 800px){
     #menu a:last-child{
         margin-right: 5px;
+    }
+
+    .progresso {
+        padding: 0 5px;
     }
 }
 
