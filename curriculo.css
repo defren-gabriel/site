@@ -52,6 +52,10 @@ li {
     #menu a:last-child{
         margin-right: 5px;
     }
+
+    #curriculo {
+        margin: 0 7px 25px 7px;
+    }
 }
 
 @media screen and (max-width: 600px){
