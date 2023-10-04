@@ -120,6 +120,10 @@ h1 {
     margin: 15px 0;
 }
 
+.progresso-info span {
+    margin-top: 15px;
+}
+
 .progresso-info span, p {
     text-align: justify;
 }
